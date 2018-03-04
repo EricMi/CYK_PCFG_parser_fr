@@ -5,6 +5,7 @@ A basic probabilistic parser for French based on the CYK algorithm and the PCFG 
 ## Requirements
 
 Python 2.7
+
 nltk 3.2.5
 
 
@@ -25,7 +26,8 @@ $ ./run_parser.sh CORPUS_DIR MODEL_DIR [INPUT_FILE OUTPUT_FILE]
 * INPUT_FILE: the text file to parse, one sentence per line as whitespace
   sperated tokens
 * OUTPUT_FILE: the file to store parsed structures
-*NOTE* If yout omit the last two parameters, you will enter interactive mode,
+
+**NOTE** If yout omit the last two parameters, you will enter interactive mode,
 where you can enter one sentence at a time in console, and get parse reault in
 console.
 
@@ -62,5 +64,6 @@ python demo.py $MODEL_DIR $3 $4
 ## References
 
 [1] Jurafsky, Dan, and James H. Martin. Speech and language processing. Vol. 3. London:: Pearson, 2014.
+
 [2] Chappelier, Jean-Cédric, and Martin Rajman. "A Generalized CYK Algorithm for Parsing Stochastic CFG." TAPD 98.133-137 (1998): 5.
 
